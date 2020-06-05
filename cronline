@@ -1,0 +1,1 @@
+0 0 * * 0 find /home/jpickard/pdfs/* -mtime +6 -type f -delete >/dev/null 2>&1
