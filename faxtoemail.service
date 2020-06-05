@@ -1,0 +1,15 @@
+[Unit]
+Description=Fax to Email Script
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=username
+Group=username
+ExecStart=/home/username/faxtoemail.sh
+
+[Install]
+WantedBy=multi-user.target
