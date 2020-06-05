@@ -9,7 +9,7 @@ Restart=always
 RestartSec=1
 User=username
 Group=username
-ExecStart=/home/username/faxtoemail.sh
+ExecStart=/home/username/hylafaxtoemail/faxtoemail.sh
 
 [Install]
 WantedBy=multi-user.target
