@@ -10,6 +10,7 @@ Send faxes recieved from HylaFAX to an email address as PDFs
 Edit `faxtoemail.sh` and fix your SMTP settings, directories, etc.
 Edit `faxtoemail.service` and adjust your username accordingly.
 
+    chmod +x faxtoemail.sh
     sudo cp faxtoemail.service /etc/systemd/system/
     systemctl daemon-reload
     systemctl enable faxtoemail.service
